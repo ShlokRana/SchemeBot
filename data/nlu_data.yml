@@ -1,0 +1,393 @@
+intents:
+  greeting:
+    examples:
+      - Hello
+      - Hi
+      - Hey there
+      - Good morning
+      - Good afternoon
+      - Good evening
+      - How are you?
+      - Nice to meet you
+      - Greetings
+      - Hello there
+      - Hey! How are you doing?
+      - Hi, nice to meet you
+      - Hello! How are you doing?
+      - Good morning, nice to meet you
+      - Hey there! How are you doing?
+      - Hey
+      - Hola
+      - Yo
+      - Sup
+      - Hi bot
+      - Hey bot
+      - Howdy
+      - Namaste
+      - Oi
+      - Heya
+      - Hihi
+      - Wazzup
+      - Morning
+      - Evening
+      - Afternoon
+
+  provide_name:
+    examples:
+      - My name is John
+      - I am John
+      - You can call me John
+      - John is my name
+      - I'm John
+      - This is John
+      - John here
+      - Name's John
+      - John
+      - They call me John
+      - I would like to be called John
+      - Please call me John
+      - My name is Amit
+      - I am Priya
+      - You can call me Rahul
+      - I'm Neha
+      - This is Rajesh
+      - Ananya here
+      - Name's Vikram
+      - Meera
+      - My name is Aditya
+      - I am Sneha
+      - You can call me Arjun
+      - I'm Kavita
+      - This is Sanjay
+      - Pooja here
+      - Name's Rishi
+      - Divya
+      - My name is Karthik
+      - I am Nandini
+      - You can call me Varun
+      - I'm Anjali
+      - This is Deepak
+      - Shreya here
+      - Name's Rohan
+      - Tanvi
+      - My name is Nikhil
+      - I am Ishita
+      - You can call me Kunal
+      - I'm Swati
+      - This is Vishal
+      - Shweta here
+      - Name's Pranav
+      - Aisha
+      - My name is Siddharth
+      - I am Ritika
+      - You can call me Aarav
+      - I'm Zara
+      - This is Aryan
+      - Kiara here
+      - Name's Kabir
+      - Mira
+      - My name is Advait
+      - I am Avani
+      - You can call me Reyansh
+      - I'm Myra
+      - This is Vihaan
+      - Aanya here
+      - Name's Dhruv
+      - Tara
+      - Shlok
+      - Rahul
+      - Priya
+      - Amit
+      - Neha
+      - Raj
+      - Anu
+      - Ankit
+      - Isha
+      - Vijay
+      - Lata
+      - Mohan
+      - Gita
+      - Deepa
+      - Vivek
+      - Anita
+      - Ravi
+      - Kiran
+      - Sunil
+      - Maya
+      - Akash
+      - Sunita
+      - Pankaj
+      - Kavya
+      - Arun
+      - Jaya
+      - Vikash
+      - Meena
+      - Gopal
+      - Komal
+      - Ajay
+      - Rekha
+      - Sachin
+      - Rani
+      - Manoj
+      - Usha
+      - Dinesh
+      - Radha
+      - Ramesh
+      - Nisha
+      - Vikas
+      - Anamika
+      - Prakash
+      - Sangeeta
+      - Naveen
+      - Geeta
+      - Vinod
+      - Seema
+      - Alok
+      - Shashi
+      - Ashok
+      - Poonam
+      - Ganesh
+      - Sarita
+      - Shiva
+      - Lakshmi
+      - Krishna
+      - Savita
+      - Rohit
+      - Anjana
+      - Rajat
+      - Sonia
+      - Kapil
+      - Veena
+      - Chandan
+      - Shakti
+      - Abhishek
+      - Mamta
+      - Sameer
+      - Taruna
+      - Saurabh
+      - Leela
+      - Madhav
+      - Kamala
+
+  provide_gender:
+    examples:
+      - I am male
+      - I'm female
+      - I am a man
+      - I'm a woman
+      - Male
+      - Female
+      - I identify as non-binary
+      - My gender is male
+      - My gender is female
+      - I'm a boy
+      - I'm a girl
+      - boy
+      - girl
+      - I identify as male
+      - My gender identification is female
+      - I am a boy
+      - She/her
+      - He/him
+      - They/them
+      - man
+      - woman
+      - m
+      - f
+      - guy
+      - lady
+      - male
+      - female
+      - I am a guy
+      - I'm a guy
+      - gent
+      - gentleman
+      - madam
+      - mr
+      - ms
+      - trans
+      - he
+      - she
+      - him
+      - her
+      - masculine
+      - feminine
+      - non-binary
+      - enby
+      - dude
+
+  provide_age:
+    examples:
+      - I am 25 years old
+      - My age is 30
+      - I'm 42
+      - I am 18
+      - 25 years
+      - I'll be 33 next month
+      - I've just turned 50
+      - I'm in my twenties
+      - 29
+      - I was born 27 years ago
+      - I'm 25 years of age
+      - 30 is my age
+      - I'm 42 years of age
+      - 18 is my age
+      - I'm 33
+      - I just turned 21
+      - 18
+      - 25
+      - 30
+      - 42
+      - 50
+      - 65
+      - 70
+      - 21
+      - 22
+      - 24
+      - 35
+      - 40
+      - 45
+      - 60
+      - 75
+      - 28
+      - 32
+      - 36
+      - 38
+      - 55
+      - 19
+      - 20
+      - 23
+      - 26
+      - 27
+      - 80
+      - 31
+      - 34
+      - 39
+
+  provide_location:
+    examples:
+      - I live in Delhi
+      - I'm from Mumbai
+      - I stay in Bangalore
+      - I reside in Chennai
+      - My home is in Hyderabad
+      - I'm living in Kolkata
+      - I am based in Pune
+      - My location is Ahmedabad
+      - I'm a resident of Jaipur
+      - Lucknow is where I live
+      - I currently live in Delhi
+      - My residence is in Mumbai
+      - I currently live in Karnataka
+      - My residence is in Tamil Nadu
+      - I live in Uttar Pradesh
+      - I'm from Gujarat
+      - I stay in Maharashtra
+      - I reside in Rajasthan
+      - Delhi
+      - Mumbai
+      - Bangalore
+      - Chennai
+      - Kolkata
+      - Karnataka
+      - Tamil Nadu
+      - Gujarat
+      - Maharashtra
+      - Rajasthan
+      - UP
+      - MP
+      - Kerala
+      - Punjab
+      - Haryana
+      - Andhra
+      - Telangana
+      - Odisha
+      - Bihar
+      - Assam
+      - Jharkhand
+      - Uttarakhand
+      - Chhattisgarh
+      - Goa
+      - Himachal
+      - Tripura
+      - Sikkim
+      - Manipur
+      - Nagaland
+      - Mizoram
+      - Meghalaya
+      - Arunachal
+
+  goodbye:
+    examples:
+      - Goodbye
+      - Bye
+      - See you later
+      - Take care
+      - Thanks, bye
+      - Have a good day
+      - Catch you later
+      - I need to go now
+      - Farewell
+      - Until next time
+      - Goodbye, thank you for your help
+      - Bye, have a nice day
+      - See you later, thank you for your help
+      - Take care, have a nice day
+      - bye
+      - exit
+      - quit
+      - cya
+      - see ya
+      - thanks
+      - end
+      - stop
+      - done
+      - finished
+      - byebye
+      - later
+      - adios
+      - cheerio
+      - peace
+      - ok bye
+      - cheers
+      - ttyl
+      - g2g
+      - gotta go
+
+  out_of_scope:
+    examples:
+      - What is the weather today?
+      - Tell me a joke
+      - Who is the president?
+      - How does gravity work?
+      - Can you recommend a movie?
+      - What's the stock market doing?
+      - Who won the football match?
+      - What's the capital of France?
+      - How do I bake a cake?
+      - What's the meaning of life?
+      - Weather
+      - Play music
+      - What time is it?
+      - News
+      - Sports
+      - Help me with homework
+      - Translate
+      - Calculate
+      - Directions
+      - Restaurants
+      - Movies
+      - Songs
+      - Dance
+      - Sing
+      - Book
+      - Flight
+      - Hotel
+      - Map
+      - Directions
+      - Food
+      - Recipes
+      - Science
+      - History
+      - Politics
+      - Technology 

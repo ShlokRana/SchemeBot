@@ -1,0 +1,62 @@
+# Virtual Environment
+myenv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.py[cod]
+*$py.class
+
+# Cursor specific
+.cursorignore
+.cursor/
+.cursor-server/
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Distribution/packaging
+build/
+dist/
+eggs/
+*.egg-info/
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files (but keep directories)
+models/entity_recognition/*
+models/intent_model.pth
+models/intent_labels.json
+
+# Keep model directories
+!models/
+!models/entity_recognition/
